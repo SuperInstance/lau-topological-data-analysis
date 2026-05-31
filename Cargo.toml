@@ -1,0 +1,14 @@
+[package]
+name = "lau-topological-data-analysis"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-topological-data-analysis"
+description = "Topological data analysis (TDA) — extracting shape from data via persistent homology, simplicial complexes, and Mapper algorithm"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+itertools = "0.13"
+rand = "0.8"
